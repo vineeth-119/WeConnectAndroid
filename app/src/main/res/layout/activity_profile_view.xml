@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_img"
+    tools:context=".ProfileView">
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@mipmap/icon"
+        android:layout_margin="5sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:textColor="#8f0311"
+        android:text="My profile"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="409dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="Full Name :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text=" Phone \nNumber :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="Aadhar Number :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="Email ID :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/emaild"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="Occupation :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="Age :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="Gender :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="Locality :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="Village :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="District :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="State :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:gravity="center"
+                    android:text="PINCODE :- "
+                    android:textColor="#8f0311"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#8f0311"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/editProf"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="To edit profile..Click here"
+        android:textColor="#000"
+        android:textStyle="bold|italic" />
+</LinearLayout>
